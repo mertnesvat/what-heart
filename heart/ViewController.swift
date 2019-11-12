@@ -12,7 +12,12 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        HealthKitManager.shared.requestAuth()
+        self.view.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(activate)))
+    }
+    
+    @objc func activate() {
+        HealthKitManager.shared.readData()
     }
 
 

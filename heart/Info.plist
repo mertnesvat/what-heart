@@ -60,5 +60,9 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSHealthUpdateUsageDescription</key>
+	<string>Your heart rate will be collected for the analysis of the HRV results.</string>
+	<key>NSHealthShareUsageDescription</key>
+	<string>Your heart rate will be collected for the analysis of the HRV results.</string>
 </dict>
 </plist>
